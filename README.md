@@ -44,20 +44,25 @@ The main takeaway is that graphs are an excellent tool in presentation of data. 
 
 No. Graphic is excellent and allowed easier understanding of data.
 
-### Feedback #3:
+### Feedback #2:
 > What do you notice in the visualization?
+
 The visualization displays information about the Titanic passengers in a very clear format.  The progression from frequency, to survivorship and then to relative frequency helps illustrate arguments regarding likelihood of survival more clearly.  For example, looking at survivorship of children younger than 11 years old it is hard to tell that the majority of them survived.  I also have noticed that it is hard to pinpoint the exact value the bars represent, but there is a convenient tool that allows me to see which y-value it corresponds with.  I also noticed a few mistakes / inconsistencies in the graphs for Gender/Survivor breakdown and Age survivor breakdown and %.
  
 > What questions do you have about the data?
+
 I would be interested in knowing the greatest determinant of survival on the Titanic and why Southhampton had a much larger relative frequency of deaths (did they have the most 3rd class passengers maybe?).
 
 > What relationships do you notice?
+
 I notice that a greater percentage of women and children survived as compared to men.  I noticed that a greater percentage of first and second class passengers survived as compared to third class passengers.  I noticed that there were a lot more men on the ship than women (why is this true?).  I also noticed that, outside of being younger than 11, there was no distinct advantage for any particular age group in terms of survival.  I agree with the author's claim that the data shows that women and children were given priority for fleeing the ship.
 
 > What do you think is the main takeaway from this visualization?
+
 The main take away for me is that third class passengers were much less likely to have survived the accident than first class passengers.  
  
 > Is there something you don’t understand in the graphic?
+
 The graphics are very clear and easy to read.  There are just some small errors:  
 1. the Gender/Survivor breakdown graph, why are the colors switched for perished and survived as compared to the others? 
 2. the Age survivor breakdown and % there is a category missing, is this the category for unknown age?
