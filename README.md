@@ -16,7 +16,7 @@ My inital idea is to move progressively through the data from simple to more com
 I clarified "unknown" categories in the description and also labeled the unknown category in the age graph. I fixed some types (thanks Mom) and reordered one of the graphs so that it had the same survived/perished coloring as the others.  Additionally, I changed the position of the hover tooltip which had somehow migrated into the upper left hand corner. I personally liked the aesthetics of the old tooltip better, but could not find a way to customize only the position. I had to recreate the entire tooltip from scratch, so it looks more basic than the old one. I also added additional visualizations to the conclusion that explore why Southampton had such lower survival rates, since both of my reviewers were curious about this. I played around with making axes labels larger, since one reviewer complained about this, but ended up sticking with the 10px default font because it allowed all of the information to fit in. (Sorry mom.) 
 
 ### Version 3 (based on feedback #3 and own ideas)
-I reverted back to the original tooltip after discovering that the issues with the old one were related to my version of dimple (2.1.6 rather than 2.2.0) and unncessary lines of code. The old tooltip is much prettier and now it's in the right position too! I also added labels inside of the bars for graphs with percentages, so that the absolute number of passengers was easily seen.  I felt that the page was too long vertically and that the user might enjoy more interactivity so I added buttons to transition from one part of the visualization to another.  
+I reverted back to the original tooltip after discovering that the issues with the old one were related to my version of dimple (2.1.6 rather than 2.2.0) and unncessary lines of code. The old tooltip is much prettier and now it's in the right position too! I also added labels inside of the bars for graphs with percentages, so that the absolute number of passengers was easily seen.  I also reformatted the charts so that all axes labels could be seen (reviewer #3 was having problems).  I felt that the page was too long vertically and that the user might enjoy more interactivity so I added buttons to transition from one part of the visualization to another.  
 
 ## Feedback 
 ### Feedback #1:
@@ -69,6 +69,31 @@ The main take away for me is that third class passengers were much less likely t
 The graphics are very clear and easy to read.  There are just some small errors:  
 1. the Gender/Survivor breakdown graph, why are the colors switched for perished and survived as compared to the others? 
 2. the Age survivor breakdown and % there is a category missing, is this the category for unknown age?
+
+### Feedback #3
+
+> What do you notice in the visualization?
+
+I  notice that…
+There was a gender imbalance on the ship – close to double!       (I like the way the curser will make the line to do an accurate reading). I imagine there were probably more men than women although this is not stated. I also notice that the graph is more complex than the ones I am used to  - although it starts at zero the area between 0-200 is disproportionate to the rest of the graph. This initially made me read the graph inaccurately; I had initially thought that there were more than double the difference in the gender population. This is the same in the adjacent class breakdown.  
+
+> What questions do you have about the data?
+
+Which gender was more represented on the ship
+In the class breakdown, does the largest bar graph represent the people who were migrating? Were there mostly men in the longest bar of class breakdown – the bar which I imagine represent the class immigrating. 
+Does your data include people working on the ship? 
+
+> What relationships do you notice?
+
+I imagine the longest bar on the gender breakdown is male and the population on the class breakdown were probably male. 
+The longest bar on both graph is the same amount. 
+
+> What do you think is the main takeaway from this visualization?
+That there is a connection between the class breakdown and the gender breakdown. 
+
+> Is there something you don’t understand in the graphic?
+- Is there a reason that the graph a smaller measurement? For me, it makes it more difficult to read.
+- Is there a reason why no labels were added under the bars? Was it to encourage the inference of data? 
 
 ## Resources 
 (Listed in order of usage)
