@@ -13,7 +13,10 @@ This dataset is taken from [Kaggle]( https://www.kaggle.com/c/titanic/data?train
 My inital idea is to move progressively through the data from simple to more complex. The first set of visualizations will simply show the breakdown of theses passengers in terms of gender, age, ticket class (first, second, or third class), port of embarkment, and number of family members abroad.  Second, will focus on survivorship, first by showing the total number of survivors and non survivors and then breaking down the original visualization into these categories.  Finally, the visualization will show each of these categories as percentages rather than raw numbers.  In the future, I would like users to be able to select certain demographics (First class, single, female, in her 20s, embarked in Southampton) and see what the survival rate for that particular demographic is.
 
 ### Version 2 (based on feedback #1 and #2)
-I added a written explanation of "unknown" categorie" and also labeled the unknown category in the age graph. Additionally, I will make graphical changes such as increase the axes label font size and changing the positioning of the hover tool tip.  I also added additional visualizations to the conclusion that explore how class plays a role in family size and port of embarkment.
+I clarified "unknown" categories and also labeled the unknown category in the age graph. Additionally, I changed the position of the hover tooltip which had somehow migrated into the upper left hand corner.  I also added additional visualizations to the conclusion that explore why Southampton had such lower survival rates, since both of my reviewers were curious about this. I played around with making axes labels larger, since one reviewer complained about this, but ended up sticking with the 10px default font because it allowed all of the information to fit in. (Sorry mom.)
+
+### Version 3 (based on feedback #3 and own ideas)
+I felt that the page was too long vertically and that the user might enjoy more interactivity so I added buttons to transition from one part of the visualization to another.
 
 ## Feedback 
 ### Feedback #1:
@@ -79,3 +82,7 @@ The graphics are very clear and easy to read.  There are just some small errors:
 - Stack Overflow Exchange http://stackoverflow.com/questions/17791926/how-to-rotate-x-axis-text-in-dimple-js
 - Stack Overflow Exchange http://stackoverflow.com/questions/33179439/d3-js-dimple-getting-a-title-on-a-graph
 - Dimple Wiki on Github https://github.com/PMSI-AlignAlytics/dimple/wiki/dimple.series#addOrderRule
+- DailyMail Article http://www.dailymail.co.uk/debate/article-2087585/Cruise-ship-Costa-Concordia-sinking-Whatever-happened-women-children-first
+- Udacity Forum Discussion https://discussions.udacity.com/t/custom-tooltip-legend-order/189042/6
+- Anna Pawlicka's tooltip tutorial http://annapawlicka.com/pretty-charts-with-dimple-js/
+- Stack Overflow Exchange http://stackoverflow.com/questions/30434627/how-to-change-the-position-and-size-of-the-tooltip-in-dimple-js
