@@ -16,7 +16,7 @@ My inital idea is to move progressively through the data from simple to more com
 I clarified "unknown" categories in the description and also labeled the unknown category in the age graph. I fixed some types (thanks Mom) and reordered one of the graphs so that it had the same survived/perished coloring as the others.  Additionally, I changed the position of the hover tooltip which had somehow migrated into the upper left hand corner. I personally liked the aesthetics of the old tooltip better, but could not find a way to customize only the position. I had to recreate the entire tooltip from scratch, so it looks more basic than the old one. I also added additional visualizations to the conclusion that explore why Southampton had such lower survival rates, since both of my reviewers were curious about this. I played around with making axes labels larger, since one reviewer complained about this, but ended up sticking with the 10px default font because it allowed all of the information to fit in. (Sorry mom.) 
 
 ### Version 3 (based on feedback #3 and own ideas)
-I reverted back to the original tooltip after discovering that the issues with the old one were related to my version of dimple (2.1.6 rather than 2.2.0) and unncessary lines of code. The old tooltip is much prettier and now it's in the right position too! I also added labels inside of the bars for graphs with percentages, so that the absolute number of passengers was easily seen.  I also reformatted the charts so that all axes labels could be seen (reviewer #3 was having problems).  I felt that the page was too long vertically and that the user might enjoy more interactivity so I added buttons to transition from one part of the visualization to another.  
+I reverted back to the original tooltip after discovering that the issues with the old one were related to my version of dimple (2.1.6 rather than 2.2.0) and unncessary lines of code. The old tooltip is much prettier and now it's in the right position too! I also added labels inside of the bars for graphs with percentages, so that the absolute number of passengers was easily seen.  I also reformatted the charts so that all axes labels could be seen (reviewer #3 was having problems). I did this by setting bounds on some of the charts and adding percentage margins.  I felt that the page was too long vertically and that the user might enjoy more interactivity so I added a navbar to transition from one part of the visualization to another.  
 
 ## Feedback 
 ### Feedback #1:
@@ -89,9 +89,11 @@ I imagine the longest bar on the gender breakdown is male and the population on 
 The longest bar on both graph is the same amount. 
 
 > What do you think is the main takeaway from this visualization?
+
 That there is a connection between the class breakdown and the gender breakdown. 
 
 > Is there something you don’t understand in the graphic?
+
 - Is there a reason that the graph a smaller measurement? For me, it makes it more difficult to read.
 - Is there a reason why no labels were added under the bars? Was it to encourage the inference of data? 
 
@@ -112,3 +114,6 @@ That there is a connection between the class breakdown and the gender breakdown.
 - Anna Pawlicka's tooltip tutorial http://annapawlicka.com/pretty-charts-with-dimple-js/
 - Stack Overflow Exchange http://stackoverflow.com/questions/30434627/how-to-change-the-position-and-size-of-the-tooltip-in-dimple-js
 - Dimple.js Storyboard Control http://dimplejs.org/advanced_examples_viewer.html?id=advanced_storyboard_control
+- Udacity Forum Discussion https://discussions.udacity.com/t/dynamic-buttons-between-cabin-class-and-sex/177482/4
+- Stack Overflow Exchange http://stackoverflow.com/questions/4247067/jquery-menus-appear-disappear-on-click-v2/4247689#4247689
+- w3 Schools CSS http://www.w3schools.com/css/css_navbar.asp
